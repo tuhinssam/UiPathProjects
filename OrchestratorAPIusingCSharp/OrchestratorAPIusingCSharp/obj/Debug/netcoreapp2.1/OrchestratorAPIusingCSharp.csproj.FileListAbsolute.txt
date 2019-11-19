@@ -1,0 +1,11 @@
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\bin\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.deps.json
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\bin\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.runtimeconfig.json
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\bin\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.runtimeconfig.dev.json
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\bin\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.dll
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\bin\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.pdb
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.csprojAssemblyReference.cache
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.csproj.CoreCompileInputs.cache
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.AssemblyInfoInputs.cache
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.AssemblyInfo.cs
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.dll
+C:\Users\tuhin.samanta\source\repos\OrchestratorAPIusingCSharp\OrchestratorAPIusingCSharp\obj\Debug\netcoreapp2.1\OrchestratorAPIusingCSharp.pdb
