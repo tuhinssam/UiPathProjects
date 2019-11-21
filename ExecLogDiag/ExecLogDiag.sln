@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.757
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExecLogDiag", "ExecLogDiag\ExecLogDiag.csproj", "{38B9395C-22C4-4E5C-97D4-783CDC59424D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38B9395C-22C4-4E5C-97D4-783CDC59424D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38B9395C-22C4-4E5C-97D4-783CDC59424D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38B9395C-22C4-4E5C-97D4-783CDC59424D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38B9395C-22C4-4E5C-97D4-783CDC59424D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B270CF06-719D-46E0-892F-02EFA06145D8}
+	EndGlobalSection
+EndGlobal
