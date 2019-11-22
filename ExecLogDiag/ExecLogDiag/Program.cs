@@ -71,19 +71,35 @@ namespace ExecLogDiag
                     
                     if(loglevel == "")
                     {
-                        var errormsgs = lstLogData.Where(obj => obj.LogLevel.ToLower() == "error").Select(obj => new { lineNum = obj.LogNum, timestmp = obj.TimeStamp, filename = obj.FileName, errMsg = obj.LogMessage });
+                        var errormsgs = lstLogData.Where(obj => obj.LogLevel.ToLower() == "error").Select(obj => new { lineNum = obj.LogNum, timestmp = obj.TimeStamp, filename = obj.FileName, processName = obj.ProcessName, errMsg = obj.LogMessage });
                         var warnmsgs = lstLogData.Where(obj => obj.LogLevel.ToLower() == "warn").ToList();
                         var infomsgs = lstLogData.Where(obj => obj.LogLevel.ToLower() == "info").ToList();
+                        var robotname = lstLogData.Select(obj => obj.RobotName).Distinct().First();
+                        var processnames = lstLogData.Select(obj => obj.ProcessName).Distinct().ToList();
+                        //machinename
+                        //user id
+
+
                         Console.WriteLine();
                         Console.WriteLine("Total number of error Log: " + errormsgs.Count());
                         Console.WriteLine("Total number of Warning Log: " + warnmsgs.Count());
                         Console.WriteLine("Total number of Information Log: " + infomsgs.Count());
+                        Console.WriteLine("Executing Robot: " + robotname);
+                        Console.WriteLine("Processes Executed:");
+                        foreach(var process in processnames)
+                        {
+                            Console.WriteLine(process);
+                        }
                         Console.WriteLine("==============================================================================");
                         foreach (var msg in errormsgs)
                         {
                             Console.WriteLine("Log#: " + msg.lineNum);
                             Console.WriteLine("Timestamp: " + msg.timestmp);
                             Console.WriteLine("Filename: " + msg.filename);
+                            if(processnames.Count>1)
+                            {
+                                Console.WriteLine("ProcessName: " + msg.processName);
+                            }
                             Console.WriteLine("ErrorMessage: " + msg.errMsg);
                             Console.WriteLine("");
                         }
